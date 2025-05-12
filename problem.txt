@@ -1,0 +1,24 @@
+(videoseg) PS E:\Work\Project\PythonProject\VideoSegma\sam2> docker compose up --build
+[+] Building 21.2s (7/7) FINISHED                                                                        docker:default
+ => [frontend internal] load .dockerignore                                                                         0.0s
+ => => transferring context: 431B                                                                                  0.0s 
+ => [frontend internal] load build definition from frontend.Dockerfile                                             0.0s 
+ => => transferring dockerfile: 605B                                                                               0.0s 
+ => [backend internal] load build definition from backend.Dockerfile                                               0.0s 
+ => => transferring dockerfile: 2.18kB                                                                             0.0s 
+ => [backend internal] load .dockerignore                                                                          0.0s 
+ => => transferring context: 2B                                                                                    0.0s 
+ => ERROR [frontend internal] load metadata for docker.io/library/nginx:latest                                    21.1s 
+ => ERROR [frontend internal] load metadata for docker.io/library/node:22.9.0                                     21.1s 
+ => ERROR [backend internal] load metadata for docker.io/pytorch/pytorch:2.5.1-cuda12.1-cudnn9-runtime            21.1s 
+------
+ > [frontend internal] load metadata for docker.io/library/nginx:latest:
+------
+------
+ > [frontend internal] load metadata for docker.io/library/node:22.9.0:
+------
+------
+ > [backend internal] load metadata for docker.io/pytorch/pytorch:2.5.1-cuda12.1-cudnn9-runtime:
+------
+time="2025-01-14T16:12:39+08:00" level=warning msg="buildx: failed to read current commit information with git rev-parse --is-inside-work-tree"
+failed to solve: nginx:latest: failed to authorize: failed to fetch anonymous token: Get "https://auth.docker.io/token?scope=repository%3Alibrary%2Fnginx%3Apull&service=registry.docker.io": dial tcp 185.60.216.50:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
