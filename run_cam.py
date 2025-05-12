@@ -148,7 +148,7 @@ class SAM2Tracker:
         Add a bounding box prompt to identify an object to track.
         
         Args:
-            frame: The current video frame
+            frame: The current video framea
             x1, y1: Top-left corner coordinates
             x2, y2: Bottom-right corner coordinates
         
