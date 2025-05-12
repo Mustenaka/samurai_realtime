@@ -22,7 +22,7 @@ sam2_realtime:
 
 效果如下，追踪物体打上白色蒙版：
 
-![1747038594951](assets\tracking.png)
+![1747038594951](/assets/tracking.png)
 
 ### 其他
 
